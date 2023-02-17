@@ -1,0 +1,260 @@
+html body {
+	color: #fefefe;
+	font-family: HelveticaNeueCyr;
+}
+
+.header, .aboutSystemAdmin, .footer {
+	background-color: #040440;
+}
+
+.header__menu, .main__textUnderButton {
+	list-style-type: none;
+	display: flex;
+}
+
+.header__menu, .header__button, .main__textAboveTitle, .main__textUnderTitle, .main__button, .main__textUnderButton_text2 {
+	font-weight: 500;
+}
+
+.main__textAboveTitle, .aboutSystemAdmin__title, .aboutCourse__title, .aboutCourse__secondTitle {
+	display: inline-block;
+}
+
+.main__title_system, .main__title_admin {
+	font-weight: bold;
+}
+
+.header__button, .main__button, .aboutCourse__button {
+	 background-color: #c93555;
+}
+
+.main__textUnderButton_text1, .footer__address, .footer__mail, .footer__number {
+	 font-weight: 300;
+}
+
+.aboutSystemAdmin__text, .aboutCourse__text, .aboutCourse__secondText {
+	font-weight: 100;
+}
+
+.aboutSystemAdmin__text, .aboutCourse__title, .aboutCourse__text {
+	font-size: 24px;
+}
+
+.header__button, .main__textAboveTitle, .footer__mail, .footer__number {
+	font-size: 18px;
+}
+
+.header__menu, .main__textUnderTitle, .main__button, .main__textUnderButton_text2, .footer__address {
+	font-size: 19px;
+}
+
+.aboutSystemAdmin__title, .aboutCourse__secondTitle, .aboutCourse__button {
+	font-size: 23px;
+}
+
+.aboutSystemAdmin__title, .aboutCourse__title, .aboutCourse__secondTitle, .aboutCourse__button {
+	font-weight: 900;
+}
+
+.aboutSystemAdmin {
+	padding-top: 71px;
+	padding-bottom: 90px;
+}
+
+.aboutCourse {
+	background-color: #130b5b;
+	padding-top: 54px;
+	padding-bottom: 185px;
+}
+
+.header__title {
+	padding-top: 13px;
+    padding-left: 69px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.header__menu {
+    padding: 0;
+    padding-left: 5px;
+    padding-top: 17px;
+	}
+
+.header__menu_item {
+	margin-right: 72px;
+}
+
+.header__menu_item:last-child {
+	margin-left: -6px;
+}
+
+
+.header__button {
+	color: #fefefe;
+    border-radius: 50px;
+    margin-top: 4px;
+    margin-left: -17px;
+}
+
+.button {
+	border: none;
+    padding: 17px;
+    width: 200px;
+}
+
+.main {
+	padding-top: 142px;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    padding-bottom: 110px;
+    padding-left: 155px;
+}
+
+.main__textAboveTitle {
+    border-top: 6px solid #c93555;
+    padding-top: 7px;
+    color: #c93555;
+}
+
+.main__title_system, .main__title_admin {
+	font-size: 40px;
+}
+
+.main__title_system {
+    padding-top: 12px;
+    margin-bottom: 0;
+    padding-left: 2px;
+}
+
+.main__title_admin {
+    margin-top: -11px;
+    padding-left: 3px;
+}
+
+.main__textUnderTitle {
+    padding-top: 11px;
+    padding-left: 3px;
+}
+
+.main__button {
+    color: #fefefe;
+    border-radius: 23px;
+    padding-top: 13px;
+    margin-top: 47px;
+    margin-left: 3px;
+    padding-left: 9px;
+}
+
+.main__textUnderButton {
+    padding-left: 2px;
+    padding-top: 39px;
+}
+
+.main__textUnderButton_item {
+	margin: 0px 34px;
+}
+
+.main__textUnderButton_text1 {
+    font-size: 16px;
+    padding-left: 2px;
+}
+
+.main__textUnderButton_text2 {
+    padding-left: 2px;
+}
+
+.main__textUnderButton .main__textUnderButton_item:first-child {
+	margin-left: 0;
+}
+
+.aboutSystemAdmin__image {
+	height: 337px;
+    width: 380px;
+    margin-left: 302px;
+    margin-top: 9px;
+}
+
+.aboutSystemAdmin__title {
+    padding-left: 11px;
+    margin-left: -8px;
+    border-left: 5px solid #c93555;
+    padding-bottom: 17px;
+}
+
+.aboutSystemAdmin__text {
+    padding-top: 27px;
+    padding-left: 7px;
+    padding-right: 32px;
+    line-height: 29px;
+}
+
+
+.aboutCourse__title {
+    margin-left: 77px;
+    padding-left: 2px;
+    border-left: 7px solid #c93555;
+    padding-bottom: 17px;
+}
+
+.aboutCourse__text {
+    padding-top: 26px;
+    padding-right: 96px;
+    padding-left: 82px;
+    line-height: 29px;
+    margin-bottom: 4px;
+}
+
+.aboutCourse__secondTitle {
+    margin-left: 78px;
+    padding-left: 2px;
+    border-left: 7px solid #c93555;
+    padding-bottom: 13px;
+    margin-top: 34px;
+}
+
+.aboutCourse__secondText {
+    font-size: 22px;
+    padding-top: 11px;
+    padding-left: 82px;
+    line-height: 29px;
+    margin-bottom: 4px;
+}
+
+.aboutCourse__button {
+	width: 432px;
+    height: 124px;
+    border-radius: 30px;
+    color: #fefefe;
+    line-height: 30px;
+    padding-top: -1px;
+    padding-left: 6px;
+    margin-top: 36px;
+    margin-left: 25px;
+    border-style: dotted;
+}
+
+.footer__iconsSocialMedia {
+	height: 29px;
+    width: 121px;
+    margin-top: 48px;
+    margin-left: 80px;
+}
+
+.footer__address {
+    padding-top: 37px;
+    line-height: 25px;
+    padding-left: 13px;
+}
+
+.footer__mail {
+    padding-top: 40px;
+    padding-left: 27px;
+}
+
+.footer__number {
+    padding-left: 72px;
+    padding-top: 40px;
+}
